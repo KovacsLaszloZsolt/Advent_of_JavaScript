@@ -18,10 +18,4 @@ inputFields.forEach((elem, index) => {
     });
     inputFields[codeLength - 1].focus();
   });
-
-  //   inputFields[0].addEventListener("paste", (e) => {
-  //     e.stopPropagation();
-  //     e.preventDefault();
-  //     console.log(e.clipboardData.getData("text/plain"));
-  //   });
 });
