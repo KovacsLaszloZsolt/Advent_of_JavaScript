@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.star-rating {
+  display: flex;
+  gap: 30px;
+}
+
+.star svg {
+  stroke: #757575;
+  stroke-width: 10px;
+}
+
+/* .star-1 svg, */
+.ranked svg {
+  stroke-width: 0;
+  fill: #ffd200;
+}
